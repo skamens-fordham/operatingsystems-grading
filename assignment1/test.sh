@@ -7,7 +7,7 @@ then
     # Assume they did the C++ version.
     output=`./hello_world`
 else
-    output=`./hello_world.py`
+    output=`/usr/bin/python3 ./hello_world.py`
 fi
 
 case "$output" in 
